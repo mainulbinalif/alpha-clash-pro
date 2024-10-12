@@ -98,17 +98,18 @@
         </div>
       </section>
       <!-- Final Score -->
-      <section
+      <section id="final-score"
         class="score flex justify-center items-center min-h-screen hidden"
       >
         <div
           class="text-white text-center space-y-6 py-20 bg-[#FFFFFF33] p-8 rounded-lg"
         >
+          <h4 class="text-4xl">Game Over !</h4>
           <h1 class="text-8xl">
             <span class="font-extrabold">Score:</span>
-            <span>14</span>
+            <span id="game-final-score">14</span>
           </h1>
-          <button class="btn px-8 bg-white text-2xl text-black font-bold">
+          <button onclick="play()" class="btn px-8 bg-white text-2xl text-black font-bold">
             Play Again
           </button>
           <p>Practice will make you Pro</p>
