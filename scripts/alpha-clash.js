@@ -106,7 +106,7 @@ function gameOver() {
 
 
     // clear the last selected alphabet background
-    const currentAlphabet = getTextElementValueById('current-alphabet')
+    const currentAlphabet = getElementTextById('current-alphabet')
     console.log(currentAlphabet);
-    removeBackgroundColorById('current-alphabet')
+    removeBackgroundColorById(currentAlphabet)
 }
